@@ -2,7 +2,7 @@ package org.junit;
 
 import java.util.stream.DoubleStream;
 
-public class Calculator {
+public class C01Calculator {
 
     static double sum(double ...numbers){
         return DoubleStream.of(numbers).sum();
